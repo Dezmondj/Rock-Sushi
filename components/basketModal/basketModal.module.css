@@ -1,0 +1,93 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #ccc;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.base {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 90%;
+  max-width: 500px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.1);
+  transform: translate(-50%, -50%);
+  background: #fff;
+  z-index: 2;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.listItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.listItem p {
+  margin: 0;
+}
+
+.listItemName {
+  font-weight: 500;
+}
+
+.removeButton {
+  all: unset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  background: #ff5757;
+  color: #fff;
+  border-radius: 50%;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.removeButton:hover {
+  background: #ff7979;
+}
+
+.removeButton:active {
+  background: #ff3535;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.total{
+  margin-top: 30px;
+}
+
+.closeButton {
+  all: unset;
+  border: 1px solid #444;
+  border-radius: 5px;
+  padding: 7px 14px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.closeButton:hover {
+  background: #eee;
+}
+
+.closeButton:active {
+  background: #ddd;
+}

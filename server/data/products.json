@@ -1,0 +1,7 @@
+[
+  { "id": "0", "name": "Святковий сет", "cost": "810", "img": "/assets/festive.jpg" },
+  { "id": "1", "name": "Запечений сет", "cost": "690", "img": "/assets/grilled.jpg" },
+  { "id": "2", "name": "Кедамо сет", "cost": "800", "img": "/assets/kedamo.jpg" },
+  { "id": "3", "name": "Хігума сет", "cost": "1045", "img": "/assets/higuma.jpg" },
+  { "id": "4", "name": "Сет Kiss", "cost": "560", "img": "/assets/kiss.jpg" }
+]

@@ -1,0 +1,163 @@
+.maincontent{
+    box-sizing: border-box;
+} 
+
+.container{
+	display: flex;
+	height: 450px;
+	background: url(/images/headback.png);
+    justify-content: center;
+}
+
+.about{
+    align-self: center;
+    justify-content: center;
+    width: 50%;
+    color: #e3e3d1;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 180px;
+}
+
+.about h2{
+    font-size: 32px;
+}
+
+.about p{
+    text-align: justify;
+    font-size: 20px;
+}
+
+.container img{
+	height: 430px;
+}
+.distance{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	background: url(/images/main1.png);
+	height: 50px;
+    color: #401e24;
+    text-transform: uppercase;
+    font-size: 24px;
+	font-weight: bold;
+    border: 4px solid #401e24;
+}
+
+@media (min-width: 1300px) and (max-width: 1600px) {
+    .distance{
+        font-size: 20px;
+    }
+    .about{
+        margin-right: 150px;
+    }
+  }
+
+  @media (min-width: 650px) and (max-width: 1100px) {
+    .distance{
+     height: 40px;
+     font-size: 16px;
+    }
+  } 
+  @media (min-width: 1100px) and (max-width: 1300px) {
+    .distance{
+        height: 45px;
+        font-size: 18px;
+    }
+    .about{
+        margin-right: 100px;
+    }
+    .container{
+        height: 400px;
+    }
+    .container img{
+        height: 370px;
+    }
+    .about h2{
+        font-size: 28px;
+    }
+    .about p{
+        font-size: 18px;
+    }
+  }
+  
+  @media (min-width: 850px) and (max-width: 1100px) {
+    .about{
+        margin-left: 30px;
+        margin-right: 40px;
+    }
+    .container{
+        height: 400px;
+    }
+    .container img{
+        height: 370px;
+    }
+    .about h2{
+        font-size: 26px;
+    }
+    .about p{
+        font-size: 16px;
+    }
+  }
+  
+  @media (min-width: 650px) and (max-width: 850px){
+    .about{
+        margin-left: 30px;
+        margin-right: 10px;
+    }
+    .container{
+        height: 350px;
+    }
+    .container img{
+        height: 320px;
+    }
+    .about h2{
+        font-size: 26px;
+    }
+    .about p{
+        font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 650px){
+    .distance{
+        height: 35px;
+        font-size: 14px;
+    }
+    .about{
+        margin-right: 0px;
+    }
+    .container{
+        height: 300px;
+    }
+    .container img{
+        height: 270px;
+    }
+    .about h2{
+        font-size: 19px;
+    }
+    .about p{
+        font-size: 11px;
+    }
+  }
+  @media (max-width: 450px){
+    .container{
+        height: 250px;
+    }
+    .container img{
+        height: 200px;
+    }
+    .about h2{
+        font-size: 12px;
+    }
+    .about p{
+        font-size: 9px;
+    }
+    .distance{
+        height: 30px;
+        font-size: 12px;
+    }
+  }
+
+

@@ -1,0 +1,75 @@
+.base {
+  display: flex;
+  box-sizing: border-box;
+  width: 230px;
+  height: 230px;
+  border: 1px solid #e3e3d1;
+  border-radius: 10%;
+  color: #e3e3d1;
+  font-size: 25px;
+  align-items: center;
+  flex-direction:column;
+  overflow: hidden;
+  position: relative;
+}
+
+.base div{
+  width: 100%;
+  text-align: center;
+  background-color: black;
+  opacity: 0.8;
+}
+
+.cost{
+  position: absolute;
+  bottom: 0;
+}
+
+.addButton {
+  all: unset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: #401e24;
+  color: #e3e3d1;
+  border-radius: 20%;
+  line-height: 50px;
+  border: 1px solid #e3e3d1;
+  cursor: pointer;
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  z-index: 1;
+}
+
+.addButton:hover {
+  background: #8383ff;
+}
+
+.addButton:active {
+  background: #3f3fff;
+}
+
+@media (min-width: 650px) and (max-width: 1100px) {
+  .base {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 650px){
+  .base {
+    font-size: 16px;
+    width: 130px;
+    height: 130px;
+  }
+  .addButton {
+    width: 25px;
+    height: 25px;
+    right: 7px;    
+  }
+}

@@ -1,0 +1,210 @@
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(/images/headback.png);
+  height: 250px;
+}
+
+.logodiv{
+	position: absolute;
+	width: 100%;
+	overflow: hidden;
+  height: 250px;
+}
+
+.logoimg{
+  width: 40%;
+	display: block;
+	margin: 0 auto;
+	opacity: 0.4;
+}
+
+.logoName {
+  margin: 0 auto;
+  top: 0; left: 0; bottom: 0; right: 0;
+  font-size: 90px;
+  text-transform: uppercase;
+  color: #e3e3d1;
+  z-index: 3;
+}
+
+.navPanel {
+  padding-top: 10px;
+	height: 100px;
+	background: url(/images/main1.png);
+	color: black;
+}
+
+.ourInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+  height: 50px;
+	background: url(/images/mainback.png);
+}
+
+.ourInfoLeftColumn {
+  display: flex;
+  gap: 100px;
+}
+
+.link {
+  text-decoration: none;
+	text-transform: uppercase;
+	color: #e3e3d1;
+	font-size: 24px;
+	font-weight: bold;
+  cursor: pointer;
+}
+
+.basketContainer {
+  all: unset;
+  position: relative;
+  text-decoration: none;
+	text-transform: uppercase;
+	color: #e3e3d1;
+	font-size: 24px;
+	font-weight: bold;
+  cursor: pointer;
+}
+
+.basketCounter {
+  position: absolute;
+  top: -8px;
+  right: -20px;
+  padding: 0 8px;
+  border-radius: 100px;
+  background: red;
+  color: #fff;
+  font-size: 11px;
+}
+
+.secondaryNav {
+  display: flex;
+	height: 50px;
+}
+
+.secondaryLink {
+  text-decoration: none;
+	text-transform: uppercase;
+	color: #401e24;
+	font-size: 24px;
+	font-weight: bold;
+  width: calc(100% / 6);
+  border: 4px solid #401e24;
+  text-align: center;
+  line-height: calc(50px - 4px - 4px);
+}
+
+@media (min-width: 600px) and (max-width: 1600px) {
+  .banner {
+    height: 220px;
+  }
+  .logodiv{
+    height: 220px;
+  }
+}
+
+@media (min-width: 650px) and (max-width: 1300px) {
+  .link{
+    font-size: 20px;
+  }
+  .basketContainer {
+    font-size: 20px;
+  }
+  .secondaryLink{
+    font-size: 20px;
+  }
+
+}
+@media (min-width: 1100px) and (max-width: 1300px) {
+  .logoimg{
+    width: 50%;
+  }
+}
+
+@media (min-width: 850px) and (max-width: 1100px) {
+  .logoimg{
+    width: 65%;
+  }
+}
+
+@media (min-width: 650px) and (max-width: 850px){
+  .logoimg{
+    width: 90%;
+  }
+}
+
+@media (max-width: 650px) and (min-width: 500px){
+  .navPanel{
+    padding-top: 5px;
+	  height: 85px;
+  }
+  .ourInfo {
+    height: 40px;
+  }
+  .secondaryNav {
+    height: 45px;
+  }
+  .link{
+    font-size: 14px;
+  }
+  .basketContainer {
+    font-size: 14px;
+  }
+  .secondaryLink{
+    font-size: 14px;
+  }
+  .logoimg{
+    width: 100%;
+  }
+  .banner{
+    height: 190px;
+  }
+  .logodiv{
+    width: 100%;
+    height: 190px;
+  }
+  .logoName {
+    font-size: 70px;
+  }
+}
+
+@media (max-width: 500px){
+  .navPanel{
+    padding-top: 5px;
+	  height: 75px;
+  }
+  .ourInfo {
+    height: 30px;
+  }
+  .secondaryNav {
+    height: 45px;
+  }
+  .link{
+    font-size: 12px;
+  }
+  .basketContainer {
+    font-size: 12px;
+  }
+  .secondaryLink{
+    font-size: 12px;
+  }
+  .logoName {
+    font-size: 50px;
+  }
+  .logoimg{
+    width: 100%;
+  }
+  .logodiv{
+    width: 100%;
+    height: 190px;
+  }
+  .banner{
+    height: 190px;
+  }
+}
+

@@ -1,0 +1,22 @@
+
+.base {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: center;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+.emptyMessage {
+  font-size: 16px;
+  font-weight: 500;
+  font-style: italic;
+}
+
+@media (max-width: 650px){
+  .base {
+    gap: 50px;
+  }
+}
